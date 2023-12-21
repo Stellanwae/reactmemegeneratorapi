@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactmemegeneratorapi/static/css/main.4eaefb2d.css",
+    "main.js": "/reactmemegeneratorapi/static/js/main.4a474fbf.js",
+    "index.html": "/reactmemegeneratorapi/index.html",
+    "main.4eaefb2d.css.map": "/reactmemegeneratorapi/static/css/main.4eaefb2d.css.map",
+    "main.4a474fbf.js.map": "/reactmemegeneratorapi/static/js/main.4a474fbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eaefb2d.css",
+    "static/js/main.4a474fbf.js"
+  ]
+}

@@ -1,13 +1,126 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Kalnia;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  color: white;
+}
+/* dark Mode styles */
+/* .navbar--darkmode--slider {
+  display: flex;
+  justify-content: end;
+} */
+
+.dark {
+  color: rgb(53, 52, 52);
+}
+
+/* End of dark mode styles */
+
+.navbar--img {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.toggle--container {
+  display: flex;
+  gap: 5px;
+}
+
+.toggle--cover {
+  display: flex;
+  border: 1px solid grey;
+  background-color: #000;
+  height: 15px;
+  width: 30px;
+  border-radius: 12px;
+}
+
+.toggle--slider {
+   height: 15px;
+   border-radius: 50%;
+   width: 15px;
+   background-color: white;
+   cursor: pointer;
+}
+
+
+
+/* main section */
+
+.main--container {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px 0 50px;
+
+}
+
+.input--section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 47%;
+  line-height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0 7px;
+}
+
+.button {
+  line-height: 30px;
+  width: 100%;
+  max-width: 500px;
+  background-color: #b5179e;
+  color: inherit;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.meme--image {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.meme--image--section {
+  position: relative;
+}
+
+.top--text {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+}
+
+.bottom--text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
 }
